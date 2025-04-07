@@ -3,7 +3,7 @@
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
-    --branco: #FFFFFF;
+    --branco: #721fbf;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(--rosa);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 .botao {
     font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--rosa);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -88,7 +88,7 @@ body {
 .aba-conteudo-titulo-secundario {
     text-align: center;
     color: var(--verde);
-    text-transform: uppercase;
+    text-transform: uppercase;;
 }
 
 .contador {
